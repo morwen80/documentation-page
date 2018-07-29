@@ -23,7 +23,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    width: 250px;
+    width: 280px;
     overflow-x: hidden;
     background-color: var(--highlighter-color);
     padding: .2rem 1.2rem;
@@ -53,7 +53,7 @@ nav ul {
 nav a {
   display: block;
   font-family: 'Economica', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(  --main-title-color);
   text-decoration: none;
 
@@ -74,7 +74,7 @@ nav li {
   font-size: 1.2rem;
 }
 #main-doc {
-  margin-left: 300px;
+  margin-left: 320px;
 }
 section {
   margin-left: 1.2rem;
@@ -132,6 +132,6 @@ footer a {
   }
   #main-doc {
     padding-top: 210px;
-   margin-left: 0;
+    margin-left: 0;
   }
 }
