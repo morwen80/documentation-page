@@ -23,7 +23,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    width: 280px;
+    width: 20%;
     overflow-x: hidden;
     background-color: var(--highlighter-color);
     padding: .2rem 1.2rem;
@@ -74,7 +74,8 @@ nav li {
   font-size: 1.2rem;
 }
 #main-doc {
-  margin-left: 320px;
+  /* margin-left: 320px; */
+  margin-left: 22%;
 }
 section {
   margin-left: 1.2rem;
