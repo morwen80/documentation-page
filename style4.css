@@ -1,0 +1,138 @@
+
+  :root {
+  --main-bg-color: #F2F7F2;
+  --main-title-color: #8E5572;
+  --highlighter-color: #BBBE64;
+  --contrast-dark-color: #BCAA99;
+
+}
+  body {
+    background-color: var(--main-bg-color);
+    font-size: 1.2rem;
+  }
+
+  /* .container {
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 350px 50px;
+} */
+
+  #navbar{
+    /* grid-column: span 3; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 20%;
+    overflow-x: hidden;
+    background-color: var(--highlighter-color);
+    padding: .2rem 1.2rem;
+    height: 100%;
+
+  }
+  #navbar header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poiret One', cursive;
+    padding-bottom: 1.2rem;
+  }
+
+#js-logo {
+  text-align: center;
+  font-size: 3em;
+  color: var(--main-bg-color);
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+  display: block;
+  font-family: 'Economica', sans-serif;
+  font-size: 1.4rem;
+  color: var(  --main-title-color);
+  text-decoration: none;
+
+}
+nav li {
+  border-bottom: 2px dotted var(--main-title-color);
+  line-height: 250%;
+  /* font-size: 2rem;
+  font-family: 'Poiret One', cursive; */
+}
+  /* #main-doc {
+    grid-column: span 9;
+  } */
+
+.ref {
+  font-family: 'Poiret One', cursive;
+  padding-top: 1.5rem;
+  font-size: 1.2rem;
+}
+#main-doc {
+  /* margin-left: 320px; */
+  margin-left: 22%;
+}
+section {
+  margin-left: 1.2rem;
+  border-bottom: 2px dotted var(--main-title-color);
+}
+section header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.2rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight:700;
+  color: var(--main-title-color);
+  font-family: 'Poiret One', cursive;
+}
+code {
+  display:block;
+  text-align: center;
+  background-color: var(--contrast-dark-color);
+  padding: 1.2rem;
+}
+
+footer {
+  color: var(--contrast-dark-color);
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--contrast-dark-color);
+}
+
+  /* footer {
+    grid-column: span 12;
+} */
+
+@media only screen and (max-width: 600px) {
+  #navbar{
+    width: 100%;
+    padding: .2rem 1.2rem;
+    height: 200px;
+    overflow: scroll;
+  }
+
+.ref, #js-logo {
+    display: none;
+  }
+  #navbar header {
+    padding-top: .8rem;
+  }
+  nav li {
+    margin-right: 1rem;
+  }
+  #main-doc {
+    padding-top: 210px;
+    margin-left: 0;
+  }
+}
